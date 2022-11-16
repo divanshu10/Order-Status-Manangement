@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(156, 228, 186);
+    background-image: url(pizza.jpg);
+}
+
+h1 {
+    margin: 10px;
+    padding: 2px;
+    color: rgb(189, 238, 11);
+
+}
+
+.container {
+    height: 500px;
+
+}
+.orderId .form-control{
+    background-color: rgb(243, 182, 154);
+    color: rgb(26, 22, 22);
+}
+
+.order-id-input {
+    width: 500px;
+    margin: auto;
+    
+  }
+
+.order-status-wrapper {
+    width: 500px;
+    margin: auto;
+    background-color: rgb(142, 145, 106)
+}
+
+.order-status-block {
+    width: 100%;
+    margin: 2px;
+    font-size: 1em;
+    background: linear-gradient(to right, rgb(228, 203, 150), #eba06e);
+}
+
+#order-id-display {
+    display: none;
+}
